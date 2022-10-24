@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ActiTime Scenarios" duration-ms="155076" started-at="2022-10-03T20:22:10 IST" finished-at="2022-10-03T20:24:45 IST">
+    <groups>
+    </groups>
+    <test name="Test cases" duration-ms="155076" started-at="2022-10-03T20:22:10 IST" finished-at="2022-10-03T20:24:45 IST">
+      <class name="com.sgtesting.actitime.testsuite.DriverScript">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@5ed828d]" name="setUpClass" is-config="true" duration-ms="699" started-at="2022-10-03T20:22:10 IST" finished-at="2022-10-03T20:22:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@5ed828d]" name="feature" duration-ms="110464" started-at="2022-10-03T20:22:11 IST" data-provider="features" finished-at="2022-10-03T20:24:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login and Logout functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@5ed828d]" name="feature" duration-ms="43419" started-at="2022-10-03T20:24:02 IST" data-provider="features" finished-at="2022-10-03T20:24:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login and Logout functionality New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.sgtesting.actitime.testsuite.DriverScript@5ed828d]" name="tearDownClass" is-config="true" duration-ms="241" started-at="2022-10-03T20:24:45 IST" finished-at="2022-10-03T20:24:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.sgtesting.actitime.testsuite.DriverScript -->
+    </test> <!-- Test cases -->
+  </suite> <!-- ActiTime Scenarios -->
+</testng-results>
